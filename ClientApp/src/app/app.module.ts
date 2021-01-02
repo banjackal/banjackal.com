@@ -28,7 +28,6 @@ import { LinksComponent } from './links/links.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: 'links', component: LinksComponent}
     ])
   ],
   providers: [],

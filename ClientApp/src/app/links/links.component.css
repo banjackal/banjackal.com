@@ -1,0 +1,35 @@
+/* Style all font awesome icons */
+.menu-links {
+    text-align: center;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    /* border-radius: 50%; */
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-github {
+      background: #24292E;
+      color: white;
+  }
+
+  .fa-steam {
+      background: #171a21;
+      color: white;
+  }
