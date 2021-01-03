@@ -67,7 +67,7 @@ namespace banjackal.com
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer("http://banjackal-spa:4200");
+                    spa.UseAngularCliServer(npmScript: "start");
                 }
             });
         }
