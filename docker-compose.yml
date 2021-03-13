@@ -9,4 +9,4 @@ services:
       context: .
       dockerfile: site/Dockerfile
     ports:
-      - 80
+      - 9000:80

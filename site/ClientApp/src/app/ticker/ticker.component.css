@@ -1,0 +1,16 @@
+.tickerBase {
+  font-size: 44px;
+  color: #444444;
+}
+
+.title {
+  font-size: 66px;
+}
+
+.gain {
+  color: #1c7430;
+}
+
+.loss {
+  color: rgba(189, 9, 8, 0.95);
+}

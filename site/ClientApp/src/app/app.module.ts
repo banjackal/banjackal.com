@@ -9,6 +9,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { LinksComponent } from './links/links.component';
 import { AboutComponent } from './about/about.component';
+import { TickerComponent } from './ticker/ticker.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AboutComponent } from './about/about.component';
     NavMenuComponent,
     HomeComponent,
     LinksComponent,
-    AboutComponent
+    AboutComponent,
+    TickerComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

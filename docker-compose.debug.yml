@@ -9,7 +9,7 @@ services:
       context: .
       dockerfile: site/Dockerfile
     ports:
-      - 80
+      - 9000:80
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:80
