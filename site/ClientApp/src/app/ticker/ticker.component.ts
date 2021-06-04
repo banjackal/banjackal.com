@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ticker.component.css']
 })
 export class TickerComponent implements OnInit {
+  DogeCoinPrice: any;
 
-  constructor() { }
+  constructor() {
+    this.DogeCoinPrice = 'Fetching Price...'
+  }
 
   ngOnInit() {
   }
