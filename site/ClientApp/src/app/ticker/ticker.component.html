@@ -1,4 +1,4 @@
 <p class="tickerBase title">Current Dogecoin Price</p>
-<p id="price_container" class="tickerBase">
-  {{ DogeCoinPrice }}
+<p id="price_container" class="tickerBase" *ngIf="getPrice()">
+{{ getPrice() }}
 </p>
