@@ -20,14 +20,14 @@ interface DogePrice {
   styleUrls: ['./ticker.component.css']
 })
 
-export class TickerComponent implements OnInit {
+export class TickerComponent {
   DOGE_PRICE_URL = "/doge";
   _dogePrice: DogePrice;
 
   constructor(private http: HttpClient) {
   }
 
-  ngOnInit() {
+  getDogePrice() {
       this.http.get<DogePrice>(this.DOGE_PRICE_URL)
       .subscribe(result => {
         console.log(result)

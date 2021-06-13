@@ -1,8 +1,6 @@
-<p class="tickerBase title">Current Dogecoin Price</p>
-<div id="price_container" class="tickerBase tickerTable" *ngIf="_dogePrice">
-  <p>
-    Current price at {{ _dogePrice.at }}
-  </p>
+<button (click)="getDogePrice()" *ngIf=!_dogePrice>Get Current Doge Price</button>
+<div id="price_container" class="tickerBase tickerTable" *ngIf=_dogePrice>
+  <p class="tickerBase title">Current Dogecoin Price at {{ _dogePrice.at }}</p>
   <table>
     <tr>
       <th>Low</th>
@@ -15,5 +13,6 @@
       <td class="gain">${{ _dogePrice.ticker.high}}</td>
     </tr>
   </table>
+  <button (click)="getDogePrice()" >Go Again?</button>
 </div>
 
