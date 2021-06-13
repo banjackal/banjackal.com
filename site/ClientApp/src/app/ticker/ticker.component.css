@@ -1,10 +1,18 @@
 .tickerBase {
-  font-size: 44px;
+  font-size: 30px;
   color: #444444;
 }
 
+.tickerTable {
+
+}
+
+table {
+  border-spacing: 50px 0;
+}
+
 .title {
-  font-size: 66px;
+  font-size: 48px;
 }
 
 .gain {

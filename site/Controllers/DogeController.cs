@@ -18,11 +18,9 @@ namespace banjackal.com.Controllers
         }
         
         [HttpGet]
-        public async Task<DogePriceModel> GetDogePrice()
+        public async Task<string> GetDogePrice()
         {
-            var result = await _httpClient.GetAsync("https://api.wazirx.com/api/v2/tickers/dogeusdt");
-
-            return JsonConvert.DeserializeObject<DogePriceModel>(result.Content.ReadAsStringAsync().Result);
-        }
+            return await _httpClient.GetStringAsync("https://api.wazirx.com/api/v2/tickers/dogeusdt");
+        } 
     }
 }
