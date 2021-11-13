@@ -35,7 +35,6 @@ export class Links extends Component {
     className="fa fa-steam"
   ></a>
 </div>
-
             </div>
         )
     }
