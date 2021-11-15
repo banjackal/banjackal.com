@@ -7,7 +7,7 @@ import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 export class NavigationMenu extends Component{
     render() {
         return(
-                <Navbar >
+                <Navbar>
                     <NavbarBrand>
                     <img src={squirrel} alt="Squirrel" className="brand brand-image"/>
                         <span className="brand brand-name">banjackal.com</span>

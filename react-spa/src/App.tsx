@@ -9,8 +9,8 @@ import {About} from './Components/About';
 function App() {
   return (
     <React.Fragment>
+      <NavigationMenu />
       <Router>
-        <NavigationMenu />
         <div className="container-body">
         <Routes>
           <Route path="/" element={<Home />} />
