@@ -1,42 +1,48 @@
 /* Style all font awesome icons */
+.links-contianer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 .menu-links {
-    text-align: center;
+  text-align: center;
 }
 
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    /* border-radius: 50%; */
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  /* border-radius: 50%; */
+}
 
-  .fa-github {
-      background: #24292E;
-      color: white;
-  }
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
 
-  .fa-steam {
-      background: #171a21;
-      color: white;
-  }
+/* Set a specific color for each brand */
 
-  .fa-reddit {
-    background: #FF4500;
-    color: white;
-  }
-  
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-github {
+  background: #24292e;
+  color: white;
+}
+
+.fa-steam {
+  background: #171a21;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff4500;
+  color: white;
+}
